@@ -20,7 +20,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import javascript from "./tech/javascript.png";
 
+import www from "./www.png";
+import github from "./github.png";
 import next from "./tech/next.png";
+import figmabg from "./projects/figma.png";
 import reactQuery from "./tech/react-query.png";
 
 export {
@@ -28,10 +31,13 @@ export {
   menu,
   close,
   web,
+  www,
   mobile,
   backend,
   nextjs,
+  github,
   innovura,
+  figmabg,
   css,
   html,
   javascript,

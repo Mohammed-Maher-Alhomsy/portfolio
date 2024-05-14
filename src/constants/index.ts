@@ -17,6 +17,7 @@ import {
   figma,
   next,
   reactQuery,
+  figmabg,
 } from "../assets";
 
 export const navLinks = [
@@ -122,5 +123,26 @@ export const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+];
+
+export const projects = [
+  {
+    name: "Figma Clone",
+    description:
+      "Build and deploy a Figma clone using Next.js, Tailwindcss and Live-blocks",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: figmabg,
+    source_code_link: "https://github.com/Mohammed-Maher-Alhomsy/Figma-Clone",
+    web_link: "https://figma-clone-black.vercel.app/",
   },
 ];
