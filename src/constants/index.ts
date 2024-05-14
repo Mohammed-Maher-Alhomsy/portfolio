@@ -1,4 +1,23 @@
-import { backend, web, mobile, nextjs, innovura } from "../assets";
+import {
+  backend,
+  web,
+  mobile,
+  nextjs,
+  innovura,
+  html,
+  css,
+  javascript,
+  typescript,
+  mongodb,
+  node,
+  tailwind,
+  react,
+  redux,
+  git,
+  figma,
+  next,
+  reactQuery,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -48,5 +67,60 @@ export const experiences = [
       "All admins have a dashboard to fully customize them portals like portal name, colors, theme and much more.",
       "All users have a profile page to add own pictures and cover image and the ability to update own display name, account if them have a permission to do that and much more.",
     ],
+  },
+];
+
+export const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: react,
+  },
+  {
+    name: "React Query",
+    icon: reactQuery,
+  },
+  {
+    name: "Next JS",
+    icon: next,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: node,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
   },
 ];
