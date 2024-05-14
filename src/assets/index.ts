@@ -6,5 +6,6 @@ import web from "./web.png";
 import mobile from "./mobile.png";
 import nextjs from "./next-js.png";
 import backend from "./backend.png";
+import innovura from "./company/innovura.png";
 
-export { logo, menu, close, web, mobile, backend, nextjs };
+export { logo, menu, close, web, mobile, backend, nextjs, innovura };
