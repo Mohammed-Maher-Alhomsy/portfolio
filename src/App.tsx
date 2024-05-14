@@ -1,8 +1,18 @@
+import { BrowserRouter } from "react-router-dom";
+import { About, Hero, Navbar } from "./components";
+
 const App = () => {
   return (
-    <>
-      <h1 className="text-3xl text-indigo-600 text-center">Hello</h1>
-    </>
+    <BrowserRouter>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar />
+          <Hero />
+        </div>
+
+        <About />
+      </div>
+    </BrowserRouter>
   );
 };
 
