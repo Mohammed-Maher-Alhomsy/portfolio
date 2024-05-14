@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const textVariant = (delay?: number) => {
   return {
     hidden: {
@@ -44,7 +45,10 @@ export const fadeIn = ({ direction, type, delay, duration }: FadeIn) => {
   };
 };
 
-export const staggerContainer = (staggerChildren, delayChildren) => {
+export const staggerContainer = (
+  staggerChildren?: any,
+  delayChildren?: any
+) => {
   return {
     hidden: {},
     show: {
