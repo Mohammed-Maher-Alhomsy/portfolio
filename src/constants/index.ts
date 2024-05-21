@@ -18,6 +18,7 @@ import {
   next,
   reactQuery,
   figmabg,
+  wallpaper,
 } from "../assets";
 
 export const navLinks = [
@@ -144,5 +145,26 @@ export const projects = [
     image: figmabg,
     source_code_link: "https://github.com/Mohammed-Maher-Alhomsy/Figma-Clone",
     web_link: "https://figma-clone-black.vercel.app/",
+  },
+
+  {
+    name: "Wallpaper Mobile App",
+    description:
+      "Build a wallpaper mobile application using React-Native, Expo and Pixabay",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Expo",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wallpaper,
+    source_code_link:
+      "https://github.com/Mohammed-Maher-Alhomsy/wallpaper-react-native",
+    web_link:
+      "https://drive.google.com/file/d/1TBB7UJER6QyEyCA4Vg-3QiOwDnjIRYJ9/view?usp=drive_link",
   },
 ];

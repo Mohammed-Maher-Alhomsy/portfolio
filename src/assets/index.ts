@@ -26,6 +26,8 @@ import next from "./tech/next.png";
 import figmabg from "./projects/figma.png";
 import reactQuery from "./tech/react-query.png";
 
+import wallpaper from "./projects/wallpaper.png";
+
 export {
   logo,
   menu,
@@ -51,4 +53,5 @@ export {
   figma,
   react,
   reactQuery,
+  wallpaper,
 };
